@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Alegreya+Sans+SC:ital,wght@1,400;1,700&family=Audiowide&family=Josefin+Sans:ital@1&family=Press+Start+2P&family=Rampart+One&family=Sono:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(photos/pexels-pixabay-270480.jpg);
+    background-size: cover;
+}
+
+.header{
+   max-width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: end;
+
+      
+}
+.header a{
+     text-decoration: none;
+   
+}
+.me{
+    width: 40%;
+    height: 100px;
+    color: aqua;
+}
+
+.sections{
+     display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 60%;
+    gap: 20px;  
+    
+}
+
+.sections a {
+     font-family: 'Advent Pro', sans-serif;
+        font-size: x-large;
+     color: rgb(135, 131, 127);
+}
+
+.container1 {
+    color: #e5e5e5;
+    font-size: 2.26rem;
+    text-transform: uppercase;
+    min-height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Rampart One', cursive;
+  }
+  
+  .animation {
+    height:50px;
+    overflow:hidden;
+    margin-left: 1rem;
+  }
+  
+  .animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height:2.81rem;
+    margin-bottom: 2.81rem;
+    display:inline-block;
+     font-family: 'Advent Pro', sans-serif;
+    /* font-family: 'Rampart One', cursive; */
+  }
+  
+  .animation div:first-child {
+    animation: text-animation 8s infinite;
+  }
+  
+  .first div {
+    background-color:#20a7d8;
+  }
+  .second div {
+    background-color:#CD921E;
+  }
+  .third div {
+    background-color:#c10528;
+  }
+  
+  @keyframes text-animation {
+    0% {margin-top: 0;}
+    10% {margin-top: 0;}
+    20% {margin-top: -5.62rem;}
+    30% {margin-top: -5.62rem;}
+    40% {margin-top: -11.24rem;}
+    60% {margin-top: -11.24rem;}
+    70% {margin-top: -5.62rem;}
+    80% {margin-top: -5.62rem;}
+    90% {margin-top: 0;}
+    100% {margin-top: 0;}
+  }
+  
+ @keyframes mymove {
+    50% {word-spacing: 50px;}
+} 
+
+.section2{
+    max-width: 100%;
+   min-height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px; 
+    font-family: 'Advent Pro', sans-serif;
+    background-size: cover;
+    color: rgb(245, 240, 240);
+    line-height: 35px;
+    padding: 0 1em;
+} 
+
+  .section3{
+    max-width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(photos/men\ at\ mork.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: unset;
+    font-size: x-large;
+    color: aqua;
+    font-family: 'Josefin Sans', sans-serif;
+
+  }
+  @media  (max-width:450px){
+    .section3{
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
+  @media (max-width:1135px){
+    .section3{
+      font-size: 18px;
+      padding: 20px;
+    }
+  }
+
+  .section4{
+    max-width: 100%;
+   min-height: 80vh;
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(photos/4\ dection.jpg);
+    background-size: cover;
+   
+  }
+  .section4 h3{
+    color: azure;
+    text-align: center;
+    font-family: 'Sono', sans-serif;
+    font-size: 45px;
+  }
+  .works{
+    max-width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .work1{
+    width: 20%;
+    height: 40vh;
+  
+  }
+  .work1 img{
+    width: 100%;
+    height: 100%;
+  }
+ @media (max-width:991px){
+  .works{
+    gap: 0;
+    padding: 10px;
+  }
+  .work1{
+    width: 50%;
+    padding: 10px;
+  }
+ }
+ @media (max-width:450px){
+  .work1{
+    width: 100%;
+    padding: 10px;
+  }
+ }
+
+.section5{
+    max-width: 100%;
+   min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(photos/cintact.jpg);
+    background-size: cover;
+
+}
+@media (max-width:400px){
+  .details form{
+    padding: 20px;
+
+  }
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  text-align: center;
+}
+
+.section5 form{ 
+  background: transparent;
+  opacity: 0.3;
+  gap: 20px;
+  border-radius: 55px;
+  margin-top: 20px;
+  
+}
+.field1{
+  width: 380px;
+  height: 50px;
+
+}
+
+.buttonss {
+  width: 170px;
+  height: 48px;
+  background-color: #4d8cf5;
+  color: #fff;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-right: 20px;
+  transition: 0.2s ease-in;
+}
+.buttonss:hover {
+  background-color: #000;
+}
+
+ .section6{
+  max-width: 100%;
+  min-height: 100px;
+   background-color: #312e2e;
+ } 
+ .search{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 40px;
+}
+
+.search a {
+  text-decoration: none;
+  color: #fff;
+}
+.search a:hover{
+  color: #4d8cf5;
+}

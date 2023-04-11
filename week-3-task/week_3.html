@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="week-3.css">
+</head>
+<body>
+    <div class="main">
+        <input id="screen" type="text" value="">
+        <div class="raws">
+            <button onclick="clearDisplay()" class="spcolor" >AC </button>
+            <button onclick="negetive()" class="spcolor" >+/-</button>
+            <button  class="spcolor">%</button>
+            <button class="gold" onclick="btnclick('/')">/</button>
+        </div>
+        <div class="raws">
+            <button onclick="btnclick(7)">7</button>
+            <button onclick="btnclick(8)">8</button>
+            <button onclick="btnclick(9)">9</button>
+            <button class="gold" onclick="btnclick('*')">*</button>
+
+        </div>
+        <div class="raws">
+            <button onclick="btnclick(4)">4</button>
+            <button onclick="btnclick(5)">5</button>
+            <button onclick="btnclick(6)">6</button>
+            <button class="gold" onclick="btnclick('-')">-</button>
+        </div>
+        <div class="raws">
+            <button onclick="btnclick(1)">1</button>
+            <button onclick="btnclick(2)">2</button>
+            <button onclick="btnclick(3)">3</button>
+            <button class="gold" onclick="btnclick('+')">+</button>
+        </div>
+       
+        <div class="raws">
+            <button class="btn0" onclick="btnclick(0)">0</button>
+            <button onclick="btnclick('.')">.</button>
+            <button onclick="equalClick()" class="gold">=</button>
+        </div>
+    </div>
+<script src="week3.js"></script>
+</body>
+</html>
